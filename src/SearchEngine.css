@@ -1,0 +1,17 @@
+.root {
+  --font-family-default: sans-serif;
+}
+
+.SearchEngine {
+  font-family: var(--font-family-default);
+  text-align: center;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+li {
+  text-align: left;
+}

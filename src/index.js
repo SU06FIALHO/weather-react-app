@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import SearchEngine from './SearchEngine';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="SearchEngine">
+      <h1>Weather Search Engine</h1>
+    <SearchEngine />
+    </div>
   </React.StrictMode>
 );
 
