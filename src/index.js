@@ -9,8 +9,17 @@ root.render(
   <React.StrictMode>
     <div className="SearchEngine">
       <h1>Weather Search Engine</h1>
-    <SearchEngine />
+
+      <SearchEngine />
     </div>
+    <footer>
+      <a href="https://github.com/SU06FIALHO/weather-react-app" target='blank'> Open-source</a>{" "}
+      code available, made by
+      <a href="https://github.com/SU06FIALHO?tab=repositories" target='blank'> Susana Fialho </a>
+      and hosted at
+      <a href="https://app.netlify.com/teams/su06fialho/sites" target='blank'> Netlify. </a>
+      
+    </footer>
   </React.StrictMode>
 );
 

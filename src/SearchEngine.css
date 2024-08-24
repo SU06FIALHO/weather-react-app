@@ -5,6 +5,12 @@
 .SearchEngine {
   font-family: var(--font-family-default);
   text-align: center;
+  margin: 50px;
+}
+
+form {
+  margin: 40px;
+  
 }
 
 img {
@@ -13,5 +19,6 @@ img {
 }
 
 li {
-  text-align: left;
+  text-align: center;
+  list-style-type: none;
 }
